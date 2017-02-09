@@ -1,0 +1,544 @@
+.site-footer-links {
+    margin: 0;
+    list-style: none;
+}
+
+.site-footer-links li {
+    display: inline;
+    padding: 0 5px 0 5px;
+    align-content: center;
+    font-size: small;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.site-footer {
+    position: relative;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+    border-top: 1px solid #eee;
+}
+
+.subfooter {
+    color: #FFF;
+    background: #73767A;
+    padding: 24px 0 0 0;
+}
+
+.navbar-default {
+    background-color: rgb(237, 237, 237);
+    border-color: rgb(237, 237, 237);
+}
+
+.rowcall {
+    margin-top: 10%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.snippet, .source-panel {
+    /* background: #ededed; */
+    position: relative;
+    clear: both;
+    margin-top: 20px;
+}
+
+#footerRights {
+    background: #ffffff;
+    color: #A4AAB3;
+/ / border-top: 1 px solid #adadad;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-top: 22px;
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 17px;
+}
+
+.iconRounded:hover, .color1 .iconRounded:hover, .iconLinks a:hover i, .boxIcon a:hover i {
+    background-color: #46b0c3;
+    color: #fff;
+    border-color: #46b0c3;
+}
+
+.iconRounded {
+    color: #46b0c3;
+    border: 1px solid #46b0c3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul.socialNetwork li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0.8em;
+}
+
+.site-footer-links li a {
+    color: #777;
+
+}
+
+
+
+ul.socialNetwork  {
+
+    display: block;
+    margin-bottom: 0;
+}
+
+ul.socialNetwork li i {
+    padding: 10px 12px;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    border-color: #1abbff;
+
+}
+
+.footerWidget h4 {
+    margin-top: 0px;
+
+}
+
+.rounddiv {
+    padding: 1px 20px;
+    display: inline-block;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 10%;
+
+}
+
+.rounddivol {
+    color: #fff;
+    padding: 8px 15px;
+    display: inline-block;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #112288;
+    /*-webkit-box-shadow: 0px 0px 2px #201988;*/
+    /*box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);
+    border-color: #1b31ff;*/
+}
+
+@media screen and (max-width: 450px) and (min-width: 0px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+
+    .logoHedder {
+        padding-left: 53px !important;
+        margin-top: -8px !important;
+        font-size: 21px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -59px;
+        margin-bottom: -53px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1% !important;
+    }
+    .logoHedder > h3{
+        font-size: 21px;
+    }
+
+
+}
+
+@media screen and (max-width: 570px) and (min-width: 450px) {
+
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 53px !important;
+        margin-top: -8px !important;
+        font-size: 21px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -59px;
+        margin-bottom: -53px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1% !important;
+    }
+    .logoHedder > h3{
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 570px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 67px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -62px;
+        margin-bottom: -102px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+
+
+}
+@media screen and (max-width: 990px) and (min-width: 768px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 75px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl{
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+
+
+}
+@media screen and (max-width: 1024px) and (min-width: 990px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 75px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl{
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+
+
+}
+
+
+
+.rounddi24 {
+    color: #60fff7;
+    padding: 8px 13px;
+    display: inline-block;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #112288;
+    -webkit-box-shadow: 0px 0px 2px #201988;
+    box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);
+    border-color: #1b31ff;
+}
+
+.h-center {
+    text-align: left;
+}
+
+.imagecss {
+
+    margin-left: 10%;
+
+}
+
+.divstyle {
+}
+
+.glyphicon {
+    margin-right: 10px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-body table tr td {
+    padding-left: 15px
+}
+
+.panel-body .table {
+    margin-bottom: 0px;
+}
+
+.aboutus-margin {
+    height: 300px !important;
+}
+
+.icon-marginaboutus {
+    margin-top: -7px;
+}
+
+.font-face {
+    font-family: 'Open Sans';
+}
+
+
+/*add for nav bar*/
+
+.navbar-brand {
+
+    background-color: rgb(237, 237, 237);
+    z-index: 9999999;
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    margin-left: 4%;
+    border-radius: 50%;
+
+}
+
+/*************************
+EXAMPLES 2-7 BELOW
+**************************/
+
+/* EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+
+.navbar-toggle {
+    z-index: 1;
+}
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    z-index: 9999;
+}
+
+body {
+    font-family: "Lato";
+}
+
+.nivFront {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+
+}
+
+.nivFront:hover {
+    background-color: red;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    color: #68abff;
+}
+
+.navbar-default .navbar-nav > li > a :hover {
+    background-color: red;
+}
+
+.circleBase {
+    border-radius: 50%;
+
+    z-index: 999999;
+}
+
+.type1 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+}
+
+.navigationBarStyle {
+    background-color: rgb(237, 237, 237);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: -4px;
+}
+
+li.containerWord {
+    font-family: Raleway;
+    margin: 0 auto;
+    padding: 0em 0em;
+    text-align: center;
+}
+
+li.containerWord a {
+    color: #FFF;
+    text-decoration: blink;
+    font: 12px inherit;
+    margin: 0px 10px;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: blue;
+    content: "";
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+li.topBotomBordersOut a:before {
+    top: 10px;
+    transform: translateY(10px);
+}
+
+li.topBotomBordersOut a:after {
+    bottom: 10px;
+    transform: translateY(-10px);
+}
+
+li.topBotomBordersOut a:hover:before,
+li.topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+li.highlightTextOut a:before,
+li.highlightTextIn a:before {
+    position: absolute;
+    color: red;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+li.highlightTextOut a:hover:before,
+li.highlightTextIn a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Highlight text in  */
+li.highlightTextIn a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+li.highlightTextIn a:before {
+    transform: scale(1.2);
+}
+
+li.pullRightLeft a:before, li.pullRightLeft a:after {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 1px;
+    content: '';
+    background: black;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+li.pullRightLeft a:before {
+    left: 0px;
+}
+
+li.pullRightLeft a:after {
+    right: 0px;
+}
+
+li.pullRightLeft a:hover:before, li.pullRightLeft a:hover:after {
+    width: 100%;
+}
+
+.logoHedder {
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.white-border {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 2px white !important;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: white !important;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px !important;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+.aboutus_icongap{
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.float-right{
+    float: left;
+}
+.float-righticon{
+    width: 25px;
+}
+.support-alignment{
+    padding-left: 17px !important;
+}
